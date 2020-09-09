@@ -1,0 +1,102 @@
+.general{
+	border: 1px;
+    background-color: darkslategrey;
+    width: auto;
+    height: 100vh;
+}
+.top{
+	    border: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+#cancel{
+	 width: 200px;
+    height: 100px;
+    font-size: 50px;
+    color: blue;
+    background-color: darkslategrey;
+    border-width: 0px;
+}
+#newContact{
+	width: 200px;
+    height: 100px;
+    font-size: 30px;
+    color: white;
+    background-color: darkslategrey;
+    border-width: 0px;
+}
+#Done{
+	width: 200px;
+    height: 100px;
+    font-size: 50px;
+    color:black;
+    border-width: 0px;
+	background-color: darkslategrey;
+
+}
+.profilePhoto{
+	border: 1px;
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.photoIcon{
+	border-radius: 100%;
+    border: 1px;
+    height: 80%;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+#userIcon{
+	font-size: 650px;
+    background-color: darkslategrey;
+    color: lightgrey;
+}
+#addphoto{
+	font-size: 50px;
+    color: blue;
+    align-self: center;
+    margin-top: 30px;
+    background-color: darkslategrey;
+    border: 0px;
+    margin-left: 35%;
+}
+.fname{
+	font-size: 70px;
+    color: grey;  
+}
+.lname{
+	font-size: 70px;
+    color: grey;
+}
+.comp{
+	font-size: 70px;
+    color: grey;
+}
+#firstName{
+	background-color: darkslategrey;
+    height: 40px;
+    width: 650px;
+    border: none;
+}
+#lastName{
+	background-color: darkslategrey;
+    height: 40px;
+    width: 650px;
+    border: none;
+}
+#company{
+	background-color: darkslategrey;
+    height: 40px;
+    width: 650px;
+    border: none;
+}
+.form{
+	    margin-top: 30px;
+    display: flex;
+    margin-left: 30px;
+}

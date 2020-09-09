@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<script type="text/javascript" src="phone.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	
+<title></title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/phone.css">
+
+<body>
+	<div class="general">
+		<div class="top">
+				<button type="button" id="cancel">Cancel</button>
+				<button type="button" id="newContact">New Contact</button>
+				<button type="button" id="Done" onclick="getFormInput()">Done</button>
+	
+			
+		</div>
+		<div class="profilePhoto">
+			<div class="photoIcon">
+				<i class="fas fa-user-circle " id="userIcon"></i>
+			</div>
+			<p>
+				<button type="button" id="addphoto" onclick="document.getElementById('photo').click();">Add photo</button>
+				<input type='file' id='photo' style="display: none;" >
+
+			</p>
+			
+		</div>
+		<div class="form">
+		<form>
+			<label class="fname">First name</label>
+			<input type="text" id="firstName"><br>
+			<label class="lname">Last name</label>
+			<input type="text" id="lastName"><br>
+			<label class="comp">Company</label>
+			<input type="text" id="company">
+		</form>
+		
+	</div>
+		
+	</div>
+
+
+</body>
+</html>
